@@ -88,6 +88,7 @@ public class Player : MonoBehaviour
         Animator.SetBool("Walk", Mathf.Abs(RB2D.velocity.x) != 0 && Grounded);
     }
 
+    //Executa o ataque
     void Attack()
     {
         Animator.SetTrigger("Punch");
